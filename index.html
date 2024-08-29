@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculato using HTML CSS JAVA SCRIPT</title>
+    <title>Calculator using HTML CSS JAVA SCRIPT</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
     <div class="calculator">
         <form>
+            <p>😎👀Dinabandhu😎👀</p>
             <div class="display">
+               
                 <input type="text" name="display">
             </div>
             <div>
                 <input type="button" value="AC" onclick="display.value =''" class="operator">
                 <input type="button" value="DEL"
                 onclick="display.value = display.value.toString().slice(0,-1)" class="operator">
-                <input type="button" value="."
-                onclick="display.value +='.'" class="operator">
+                <input type="button" value="%"
+                onclick="display.value +='%'" class="operator">
                 <input type="button" value="/"
                 onclick="display.value +='/'" class="operator">
             </div>
@@ -47,7 +49,10 @@
             <div>
                 <input type="button" value="00" onclick="display.value +='00'">
                 <input type="button" value="0" onclick="display.value +='0'">
+                <input type="button" value="."
+                onclick="display.value +='.'">
                 <input type="button" value="=" onclick="display.value = eval(display.value)" class="operator">
+                
             </div>
         </form>
     </div>

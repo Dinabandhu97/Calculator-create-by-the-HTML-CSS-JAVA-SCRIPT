@@ -28,6 +28,10 @@
      background: transparent;
 
 }
+form p{
+    color:white;
+    text-align: center;
+}
 form .display{
     display:flex;
     justify-content: flex-end;
@@ -39,9 +43,7 @@ form .display input{
     font-size: 45px;
     box-shadow: none;
 }
-form input.equal{
-    width: 145px;
-}
+
 .operator{
     color:#33ffd8;
 }
